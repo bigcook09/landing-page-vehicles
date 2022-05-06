@@ -176,3 +176,120 @@
  width: 100%;
  background: #7ad7f1;
 }
+/* @media (max-width: 1920px) {
+  .jumbo-slider {
+    width: 100%;
+    padding: 0 20px;
+  }
+}  */
+/* @media screen and (max-width: 1024px) {
+  .jumbo-slider {
+    width: 100%;
+  }
+} */
+@media screen and (min-width: 741px) and (max-width:1340px){
+  .jumbo-slider__container {
+   width: 100%;
+   height: auto;
+ }
+ .jumbo-slider__slide-number {
+  font-size: 8rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: -10px;
+  bottom: 4rem;
+ }
+ .jumbo-slider__title{
+   margin: 0,auto;
+   position: fixed;
+   top: 50%;
+   left: 32%;
+   /* right: -30%; */
+   translate: (-50%, -50%);
+  }
+ .jumbo-slider__description{
+   position: fixed;
+   font-size: medium;
+   top: 65%;
+   left: 25%;
+   translate: (-50%, -50%);
+   text-overflow: clip;
+  }
+}
+/* @media screen and (max-width: 348px) {
+  .page-header__nav{
+    display: flex;
+    margin-left: 20px;
+  }
+  .jumbo-slider__container {
+    width: 100%;
+    height: auto;
+  }
+
+  .jumbo-slider__slide-number {
+    font-size: 8rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    bottom: 1rem;
+  }
+
+  .jumbo-slider__title {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-right: 25px;
+    margin-bottom: -110px;
+    
+  }
+  .jumbo-slider__description{
+    display: none;
+  }
+  .jumbo-slider__link{
+    display: flex;
+    position: relative;
+    font-size: small;
+  }
+} */
+@media screen and (min-width: 280px) and (max-width: 740px){
+  .page-header__nav{
+    display: flex;
+    margin-left: 20px;
+  }
+  .jumbo-slider__info{
+    margin: 0 auto;
+  }
+  .jumbo-slider__link{
+    font-size: large;
+  }
+  .jumbo-slider__slide-number{
+    font-size: 150px;
+    position: fixed;
+    margin: 0 auto;
+    top: 25%;
+    left: 30%;
+    right: -15%;
+    translate: (-50%, -50%);
+  }
+  .jumbo-slider__title{
+    /* width: 30vw;
+    max-width: 40vw; */
+    /* justify-content: left;
+    align-items: left; */
+    margin: 0, auto;
+    position: fixed;
+    top: 58%;
+    left: 30%;
+    right: -25%;
+    translate: (-50%,-50%);
+    font-size: large;
+    
+  }
+  .jumbo-slider__description{
+    display: none;
+  }
+}
